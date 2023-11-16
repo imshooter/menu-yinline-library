@@ -16,7 +16,7 @@ YCMD:test1(playerid, params[], help) {
 
     inline const Response(response, row) {
         if (!response) {
-            return SendClientMessage(playerid, -1, "* You have closed the menu.");
+            return SendClientMessage(playerid, -1, "* You closed the menu.");
         }
 
         SendClientMessage(playerid, -1, "* Row %i selected.", row);
@@ -43,7 +43,7 @@ YCMD:test2(playerid, params[], help) {
 
 MENU:SelectMenuRow(playerid, response, row) {
     if (!response) {
-        return SendClientMessage(playerid, -1, "* You have closed the menu.");
+        return SendClientMessage(playerid, -1, "* You closed the menu.");
     }
 
     SendClientMessage(playerid, -1, "* Row %i selected.", row);
