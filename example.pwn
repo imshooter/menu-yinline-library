@@ -1,3 +1,7 @@
+/**
+ * NOTE: The menu is not destroyed anywhere.
+ */
+
 #include <open.mp>
 #include <YSI_Visual\y_commands>
 
