@@ -10,7 +10,7 @@
     (Func:0<iii>)
 
 #define MENU:%0(%1) \
-	forward %0(%1); public %0(%1)
+    forward %0(%1); public %0(%1)
 
 static
     Menu:gMenu[MAX_PLAYERS] = { INVALID_MENU, ... },
